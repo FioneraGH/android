@@ -9,8 +9,8 @@
            fetch="ssh://git@github.com" />
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com"
-           review="android-review.googlesource.com"
+           fetch="git://mirrors.ustc.edu.cn/aosp"
+           review="https://gerrit-googlesource.proxy.ustclug.org"
            revision="refs/tags/android-9.0.0_r1" />
 
   <default revision="refs/heads/lineage-16.0"
